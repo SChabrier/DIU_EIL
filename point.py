@@ -1,8 +1,10 @@
-def point(x,y):
-	return [x,y]
+class point:
+	    def __init__(self,x,y):
+	        self.x = x
+	        self.y = y
+	    
+	    def getx(self):
+	        return self.x
 	
-	def getx(p):
-		return p[0]
-	
-	def gety(p):
-		return p[1]
+	    def gety(self):
+	        return self.y
