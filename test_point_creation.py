@@ -1,3 +1,5 @@
+from point import *
+
 def test_point_creation():
 	p = point(22,7)
 
