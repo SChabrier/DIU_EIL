@@ -18,6 +18,8 @@ def test_equality():
 	p1 = point(1 ,3)
 	p2 = point(1 ,3)
 	p3 = point(2 ,5)
+	p4 = point(6 ,45)
+    
 	assert p1 == p1
 	assert p1 == p2
 	assert p2 == p1
